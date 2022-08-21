@@ -1,0 +1,28 @@
+body{
+    background-color: teal !important;
+}
+.head{
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem 0;
+}
+.header{
+   
+  display: grid;
+  place-items: center;
+}
+
+.filter-btn{
+    border: none;
+    cursor: pointer;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background-color: sienna;
+    color: white;
+}
+.filter-btn:focus{
+    border: none;
+    box-shadow: none;
+    outline-offset: 0;
+    outline-style: none;
+}
